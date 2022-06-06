@@ -15,7 +15,7 @@ small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
+canvas, details, embed, figure, figcaption, figAltcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
@@ -31,6 +31,15 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+
+figAltcaption {
+	display: block;
+	margin-left: 1.0em;
+	color:rgb(115, 115, 115);
+	font-size: 91%;
+	line-height: 1.5;
+	max-width: 420px;
 }
 
 ol, ul {
@@ -2036,6 +2045,17 @@ input, select, textarea {
 		}
 
 /* Image */
+	.img {
+		border-radius: 0.35em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+	.img.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+	}
 
 	.image {
 		border-radius: 0.35em;
