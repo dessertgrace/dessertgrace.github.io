@@ -2663,6 +2663,16 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+	.altPhoto {
+		background-image: url("images/overlay.png"), url("../../photosContract/images/large/DSCF1523-2.jpg") !important;
+		background-size: auto !important;
+		/* right: 1400px !important; */
+		/* top: 100px !important; */
+		/* width: 40% !important; */
+		/* background-position: center -66.7px  !important; */
+		background-position: -200px -10px !important;	
+	}
+
 /* Footer */
 
 	#footer .icons {
@@ -3072,6 +3082,15 @@ input, select, textarea {
 
 		/* Header */
 
+			.altPhoto {
+				/* background-image: url("../../photosContract/images/large/DSCF1479.jpg") !important; */
+				/* background-size: auto !important;  */
+				/* right: 1400px !important; */
+				/* top: 100px !important; */
+				/* width: 40% !important; */
+				background-position: -200px -250px !important;	
+			}
+
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
@@ -3091,6 +3110,13 @@ input, select, textarea {
 
 					#header h1 br {
 						display: inline;
+					}
+					#header .image {
+						min-height: 20px;
+					}
+
+					#header .image.avatar img{
+						display: none;
 					}
 
 		/* Footer */
