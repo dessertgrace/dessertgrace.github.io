@@ -2613,11 +2613,12 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bigsur.jpg");
+		background-color: #4c7276;
+		/* background-image: url("images/overlay.png"), url("../../images/bigsur.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								280%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.946);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2648,11 +2649,11 @@ input, select, textarea {
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 1.20em;
 			line-height: 1.75em;
 			margin: 0;
