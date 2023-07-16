@@ -143,70 +143,6 @@
 
 
 
-
-		<div class="tabbed">
-
-			<input type="radio" id="tab1" name="css-tabs" checked>
-
-			<ul class="tabs">
-				<li class="tab"><label for="tab1">house cocktails</label></li>
-			</ul>
-
-			<div class="scrollyBox">
-				<div id="house cocktails" class="tabcontent">
-	
-					<h4>
-						mint condition
-					</h4>
-					<p>
-						vodka, raspberry, mint, lemon
-					</p>
-					
-					<h4>
-						gin rickshaw 
-					</h4>
-					<p>
-						gin, ginger shrub, lime, rice wine vinegar, cava
-					</p>
-
-					<h4>
-						category 5 spice
-					</h4>
-					<p> rum, lime, five spice syrup, ginger beer
-					</p>
-
-					<h4>
-						lucky me
-					</h4>
-					<p>
-						tequila, pineapple, lime, agave
-					</p>
-					
-					<h4>
-						blackheart
-					</h4>
-					<p>
-						rye, blackberry, lime, yuzu
-					</p>
-
-					<h4>yuzu collins
-						</h4>
-					<p>
-						bourbon, cointreau, yuzu, soda
-					</p>
-
-					<h4>917
-					</h4>
-					<p>
-						cava, pomegranite, nigori sake
-					</p>
-					
-				</div>
-			</div>
-		</div>
-
-
-
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
@@ -236,60 +172,6 @@
 
 <style>
 
-
-.tabbed {
-	overflow-x: hidden; /* so we could easily hide the radio inputs */
-	margin: 0px 0;
-	padding-bottom: 16px;
-}
-
-.tabbed [type="radio"] {
-	display: none;
-}
-
-.tabs {
-	display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-	align-items: center;
-  	justify-content: center;
-	list-style: none;
-	margin: 0;
-    padding: 10px 5px;
-	margin-bottom: 20px;
-    background: rgba(0,0,0,0.05)
-}
-.tab > label {
-	display: block;
-	margin-bottom: -1px;
-	padding: 0px 0px;
-	margin: 0px 10px;
-    margin-bottom: 0px;
-	font-weight:500;
-	font-size: 14px; 
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	cursor: pointer;	
-	/* transition: all 0.3s; */
-}
-.tab:hover label {
-	border-top-color: #333;
-	color: #333;
-}
-
-.tabcontent {
-	display: none;
-}
-
-.tabbed [type="radio"]:nth-of-type(1):checked ~ .tabs .tab:nth-of-type(1) label {
-	/* border-bottom-color: #fff; */
-	border-bottom: 1px black solid;
-}
-
-.tabbed [type="radio"]:nth-of-type(1):checked ~ .scrollyBox .tabcontent:nth-of-type(1) {
-	display: block;
-}
-
 h3 {
 				margin-top:0;
 				font-size: 30px;
@@ -307,26 +189,6 @@ h3 {
 				margin-top:0px;
 				}
 				
-				.scrollyBox {
-			width: calc(100%-10px);
-			height: 491px;
-			padding: 5px;
-			padding-right: 30px;
-			overflow: auto;
-			font-size: 17px;
-		}
-		
-		.scrollyBox::-webkit-scrollbar {
-		width: 0.1em;
-		}
-		
-		.scrollyBox::-webkit-scrollbar-track {
-		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-		}
-		
-		.scrollyBox::-webkit-scrollbar-thumb {
-		background-color: rgba(0, 0, 0, 0.4);
-		}
 
 	#photosContract {
 		height: 500px;
